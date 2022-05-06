@@ -1,0 +1,185 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0%;
+	padding: 0% 5% 5% 5%;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-cabecera {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.foto-portada {
+	width: 100%;
+	max-height: 500px;
+	display: block;
+	object-fit: cover;
+	object-position: 0% 30%;
+}
+
+@media all and (max-width: 425px) {
+
+		.foto-portada {
+			object-position: 30% 30%;
+			zoom: 25%;
+		}
+
+		.section address ul,
+		.section ul,
+    nav ol {
+			padding-left: 5%;
+		}
+}
+
+.boton a {
+	text-decoration: none;
+  color: black;
+}
+
+.section a {
+  text-decoration: none;
+}
+
+a:hover {
+	color: #1ED5BD;
+}
+
+.nav ol,
+.botoncontainer {
+	padding: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.boton {
+  background-color: #D9D9D9;
+	display: inline-block;
+	padding:10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin:10px;
+}
+
+.boton:hover{
+	background-color: rgb(220, 250, 244);
+}
+
+
+.header {
+	min-height: 100px;
+	background-color: #D9D9D9;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid black; 
+}
+
+.nombre {
+	text-align: center;
+	font-size: 48px;
+	margin-top: auto;
+	padding-top: 20px;
+}
+
+.section {
+	background-color: #D9D9D9;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+h2 {
+	text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.margen-items {
+	margin:5px;
+}
+
+.porcentaje-fondo {
+	height: 20px;
+	width: 120px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.porcentaje-25 {
+	display: inline-block;
+	height: 100%;
+	width: 25%;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+.porcentaje-50 {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+.porcentaje-75 {
+	display: inline-block;
+	height: 100%;
+	width: 75%;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+.porcentaje-100 {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+.section address ul li {
+	list-style-type: circle;
+  margin-bottom: 10px;
+}
+
+.telephone, .gmail, .pin{
+	max-width: 30px;
+	max-height: 15px;
+}
+
+.linkedin, .github{
+	max-width: 60px;
+	max-height: 50px;
+}
+
+.icon {
+	padding-right: 10px;
+}
+
+.contenedor-cabecera,
+nav ol li,
+.section,
+.boton {
+	margin-bottom: 5%;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, .2);
+}
