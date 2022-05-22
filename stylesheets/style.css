@@ -97,7 +97,11 @@ a:hover {
 
 h2 {
 	text-align: center;
-  margin-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: justify;
 }
 
 .grid {
@@ -167,7 +171,7 @@ h2 {
 	max-height: 15px;
 }
 
-.linkedin, .github{
+.linkedin, .github, .itch {
 	max-width: 60px;
 	max-height: 50px;
 }
